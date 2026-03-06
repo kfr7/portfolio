@@ -12,9 +12,9 @@ const highlights = [
     period: 'Jan 2024 — Present',
     logo: 'https://logo.clearbit.com/brandboom.com',
     points: [
-      'Promoted to Engineer III in 15 months in a high-speed product environment.',
-      'Shipped AI-powered workflows, sync systems, and data pipelines with measurable impact.',
-      'Drove frontend modernization and test reliability while mentoring teammates.'
+      'Promoted to Engineer III in 15 months in a fast product cycle.',
+      'Built AI-assisted systems, data workflows, and integrations that improved speed and outcomes.',
+      'Drove modernization across frontend/test infrastructure while mentoring teammates.'
     ]
   },
   {
@@ -22,11 +22,13 @@ const highlights = [
     period: 'Jun 2022 — Sep 2023',
     logo: 'https://logo.clearbit.com/coursehero.com',
     points: [
-      'Built event-driven backend capabilities on AWS to improve processing speed and resilience.',
-      'Delivered APIs and documentation that improved product experience and team collaboration.'
+      'Built event-driven backend capabilities on AWS for scalable processing.',
+      'Delivered APIs and documentation that improved internal collaboration and UX quality.'
     ]
   }
 ];
+
+const youtubeEmbedUrl = 'https://www.youtube.com/embed/3fQ7w4fQfwo?autoplay=1&mute=1&controls=1&rel=0';
 ---
 
 <BaseLayout title="Kian Fabian Ranjbar | Portfolio" description="Creative full-stack portfolio of Kian Fabian Ranjbar">
@@ -36,8 +38,8 @@ const highlights = [
         <p class="panel-title">SYSTEM.ONLINE — LOS ANGELES</p>
         <h1 class="neon mt-3 text-4xl font-bold tracking-tight md:text-6xl">Kian Fabian Ranjbar</h1>
         <p class="mt-4 max-w-3xl text-slate-300">
-          Full-stack engineer building scalable products with AI, data, and clean UX. I’m a shipping-focused engineer who likes hard
-          problems, quick iteration, and making software feel alive.
+          I’m a full-stack engineer who likes building products that feel fast, clean, and a little magical.
+          My work sits at the overlap of AI workflows, dependable systems, and user experiences people actually enjoy using.
         </p>
       </div>
       <div class="grid gap-2 text-sm">
@@ -54,7 +56,10 @@ const highlights = [
 
   <section class="mt-4 grid gap-4 md:grid-cols-3">
     <article class="glass p-5 md:col-span-2">
-      <h2 class="panel-title">MISSION LOG / EXPERIENCE</h2>
+      <h2 class="panel-title">BUILD LOG / RECENT WORK</h2>
+      <p class="mt-2 text-sm text-slate-400">
+        Not a resume dump — just the highlights that best reflect how I like to build.
+      </p>
       <div class="mt-4 space-y-4">
         {highlights.map((item) => (
           <div class="rounded-xl border border-slate-700/70 bg-slate-950/60 p-4 transition hover:-translate-y-0.5 hover:border-cyan-300/70">
@@ -71,9 +76,9 @@ const highlights = [
           </div>
         ))}
       </div>
-      <div class="mt-4 rounded-xl border border-dashed border-cyan-400/30 bg-cyan-400/5 p-4 text-sm text-cyan-100">
-        Also taught C++ as a UCI ICS tutor and founded my high school programming club to help classmates break into CS.
-      </div>
+      <p class="mt-4 rounded-xl border border-dashed border-cyan-400/30 bg-cyan-400/5 p-4 text-sm text-cyan-100">
+        Also taught C++ at UCI ICS and started a high school programming club to help students break into CS earlier.
+      </p>
     </article>
 
     <aside class="space-y-4">
@@ -86,34 +91,37 @@ const highlights = [
       </article>
 
       <article class="glass p-5">
-        <h2 class="panel-title">HUMAN PATCH NOTES</h2>
-        <ul class="mt-3 list-disc space-y-2 pl-5 text-sm text-slate-300">
-          <li>Beach soccer juggling sessions keep me sane.</li>
-          <li>Gym discipline translates directly to engineering consistency.</li>
-          <li>Home movie nights are my favorite reset ritual.</li>
-          <li>I absolutely plan to buy a home robot assistant once they’re truly useful.</li>
-        </ul>
+        <h2 class="panel-title">OFF THE CLOCK</h2>
+        <p class="mt-2 text-sm text-slate-300">
+          I’m usually either hiking, at the gym, or at an EDM show. I like recording concert moments with Meta glasses so I can stay present
+          without living behind a phone screen.
+        </p>
       </article>
     </aside>
   </section>
 
   <section class="mt-4 grid gap-4 md:grid-cols-2">
     <article class="glass p-5">
-      <h2 class="panel-title">IMPACT OUTSIDE CODE</h2>
-      <p class="mt-3 text-sm text-slate-300">
-        Co-founder of a nonprofit charity organization running for over 10 years supporting orphanages in Tijuana, Mexico.
-        Building systems matters, but so does building community.
-      </p>
+      <h2 class="panel-title">TRAIL MODE</h2>
+      <p class="mt-2 text-sm text-slate-400">A few moments from hikes and travel resets.</p>
+      <div class="mt-3 grid gap-3 sm:grid-cols-2">
+        <figure class="overflow-hidden rounded-xl border border-slate-700 bg-slate-950/60">
+          <img src="/images/kian-hike-waterfall.jpg" alt="Kian hiking near a waterfall" class="h-64 w-full object-cover object-center" loading="lazy" />
+        </figure>
+        <figure class="overflow-hidden rounded-xl border border-slate-700 bg-slate-950/60">
+          <img src="/images/kian-hike-park.jpg" alt="Kian sitting in a park with deer" class="h-64 w-full object-cover object-center" loading="lazy" />
+        </figure>
+      </div>
     </article>
 
     <article class="glass p-5">
-      <h2 class="panel-title">SOCCER MODE (MINI CLIP)</h2>
-      <p class="mt-2 text-xs text-slate-400">A little flair inspiration:</p>
+      <h2 class="panel-title">SOCCER ENERGY</h2>
+      <p class="mt-2 text-xs text-slate-400">You can swap this embed to any clip URL you want in one place.</p>
       <div class="mt-3 aspect-video overflow-hidden rounded-xl border border-slate-700">
         <iframe
           class="h-full w-full"
-          src="https://www.youtube.com/embed/3fQ7w4fQfwo?autoplay=1&mute=1&controls=1&rel=0"
-          title="Ronaldinho highlights"
+          src={youtubeEmbedUrl}
+          title="Soccer highlight clip"
           loading="lazy"
           allow="autoplay; encrypted-media; picture-in-picture"
           allowfullscreen
@@ -122,22 +130,30 @@ const highlights = [
     </article>
   </section>
 
-  <section class="mt-4 glass p-5">
-    <div class="flex flex-wrap items-center justify-between gap-2">
-      <h2 class="panel-title">MINI GAME — BUG HUNTER</h2>
-      <p class="text-xs text-slate-400">Click the moving bug. 20 seconds. High score stays in this browser.</p>
-    </div>
-    <div class="mt-3 grid gap-3 md:grid-cols-[1fr_auto] md:items-center">
-      <div class="relative h-44 rounded-xl border border-slate-700 bg-slate-950/70" id="arena">
-        <button id="bug" class="absolute left-5 top-5 text-2xl transition hover:scale-110" aria-label="bug">🐞</button>
+  <section class="mt-4 grid gap-4 md:grid-cols-2">
+    <article class="glass p-5">
+      <h2 class="panel-title">IMPACT OUTSIDE CODE</h2>
+      <p class="mt-3 text-sm text-slate-300">
+        I’m also a co-founder of a nonprofit charity organization that has been running for over 10 years, helping orphanages in
+        Tijuana, Mexico.
+      </p>
+    </article>
+
+    <article class="glass p-5">
+      <h2 class="panel-title">BUG HUNTER MINI GAME</h2>
+      <p class="mt-2 text-xs text-slate-400">let’s see how good you are at catching bugs.</p>
+      <div class="mt-3 grid gap-3 md:grid-cols-[1fr_auto] md:items-center">
+        <div class="relative h-48 rounded-xl border border-slate-700 bg-slate-950/70" id="arena">
+          <button id="bug" class="absolute left-5 top-5 text-3xl transition hover:scale-110" aria-label="bug">🐞</button>
+        </div>
+        <div class="rounded-xl border border-slate-700 bg-slate-950/60 p-3 text-sm">
+          <p>Time: <span id="time">25</span>s</p>
+          <p>Score: <span id="score">0</span></p>
+          <p>Best: <span id="best">0</span></p>
+          <button id="start" class="mt-2 rounded-lg border border-cyan-400/50 px-3 py-1 text-cyan-200 hover:bg-cyan-400/10">Start</button>
+        </div>
       </div>
-      <div class="rounded-xl border border-slate-700 bg-slate-950/60 p-3 text-sm">
-        <p>Time: <span id="time">20</span>s</p>
-        <p>Score: <span id="score">0</span></p>
-        <p>Best: <span id="best">0</span></p>
-        <button id="start" class="mt-2 rounded-lg border border-cyan-400/50 px-3 py-1 text-cyan-200 hover:bg-cyan-400/10">Start</button>
-      </div>
-    </div>
+    </article>
   </section>
 
   <script is:inline>
@@ -148,7 +164,7 @@ const highlights = [
     const scoreEl = document.getElementById('score');
     const bestEl = document.getElementById('best');
 
-    let timer = 20;
+    let timer = 25;
     let score = 0;
     let gameInterval;
     let moveInterval;
@@ -156,8 +172,8 @@ const highlights = [
     bestEl.textContent = String(best);
 
     const moveBug = () => {
-      const x = Math.random() * (arena.clientWidth - 44);
-      const y = Math.random() * (arena.clientHeight - 44);
+      const x = Math.random() * (arena.clientWidth - 52);
+      const y = Math.random() * (arena.clientHeight - 52);
       bug.style.left = `${x}px`;
       bug.style.top = `${y}px`;
     };
@@ -172,12 +188,12 @@ const highlights = [
     start.addEventListener('click', () => {
       clearInterval(gameInterval);
       clearInterval(moveInterval);
-      timer = 20;
+      timer = 25;
       score = 0;
-      timeEl.textContent = '20';
+      timeEl.textContent = '25';
       scoreEl.textContent = '0';
       moveBug();
-      moveInterval = setInterval(moveBug, 700);
+      moveInterval = setInterval(moveBug, 950);
       gameInterval = setInterval(() => {
         timer -= 1;
         timeEl.textContent = String(timer);
