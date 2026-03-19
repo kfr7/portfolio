@@ -22,12 +22,12 @@ const skillGroups = [
   {
     label: "databases",
     icon: "⊞",
-    items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
+    items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Supabase"],
   },
   {
     label: "cloud & devops",
     icon: "☁",
-    items: ["AWS", "GCP", "Docker", "Jenkins", "TeamCity", "CI/CD", "Webpack", "Vite"],
+    items: ["AWS", "GCP", "Docker", "Vercel", "Jenkins", "TeamCity", "CI/CD", "Webpack", "Vite"],
   },
   {
     label: "ai & llm",
