@@ -22,12 +22,6 @@ const links = [
     href: "https://github.com/kfr7",
     icon: "◈",
   },
-  {
-    label: "Phone",
-    value: "(949) 328-0619",
-    href: "tel:9493280619",
-    icon: "☎",
-  },
 ];
 
 export default function Contact() {

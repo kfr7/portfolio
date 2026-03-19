@@ -113,7 +113,7 @@ export default function About() {
                   alt="Kian Ranjbar"
                   width={400}
                   height={400}
-                  className="w-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full object-cover transition-all duration-300 hover:scale-105"
                   priority
                 />
               </div>
@@ -157,7 +157,7 @@ export default function About() {
               alt="Soccer"
               width={300}
               height={200}
-              className="w-full h-40 object-cover grayscale hover:grayscale-0 transition-all duration-500"
+              className="w-full h-40 object-cover transition-all duration-300 hover:scale-105"
             />
             <p className="text-center text-[#555] text-xs py-2">
               ⚽ The beautiful game
@@ -169,7 +169,7 @@ export default function About() {
               alt="Hiking"
               width={300}
               height={200}
-              className="w-full h-40 object-cover grayscale hover:grayscale-0 transition-all duration-500"
+              className="w-full h-40 object-cover transition-all duration-300 hover:scale-105"
             />
             <p className="text-center text-[#555] text-xs py-2">
               🥾 Trail therapy
