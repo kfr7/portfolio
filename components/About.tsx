@@ -102,14 +102,14 @@ export default function About() {
             </div>
 
             {/* Soccer + Hiking photos */}
-            <div className="grid grid-cols-2 gap-3 max-w-xs mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="rounded-lg overflow-hidden border border-[#1a1a1a] hover:border-[#00ff41]/30 transition-colors">
                 <Image
                   src="/brazil-juggling.jpeg"
                   alt="Soccer"
                   width={300}
                   height={200}
-                  className="w-full h-32 object-cover transition-all duration-300 hover:scale-105"
+                  className="w-full h-48 object-cover transition-all duration-300 hover:scale-105"
                 />
                 <p className="text-center text-[#888] text-xs py-2">⚽ The beautiful game</p>
               </div>
@@ -119,7 +119,7 @@ export default function About() {
                   alt="Hiking"
                   width={300}
                   height={200}
-                  className="w-full h-32 object-cover transition-all duration-300 hover:scale-105"
+                  className="w-full h-48 object-cover transition-all duration-300 hover:scale-105"
                 />
                 <p className="text-center text-[#888] text-xs py-2">🥾 Trail therapy</p>
               </div>
