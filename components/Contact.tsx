@@ -72,7 +72,7 @@ export default function Contact() {
                 {link.icon}
               </span>
               <div className="overflow-hidden">
-                <p className="text-[#555] text-xs uppercase tracking-widest">
+                <p className="text-[#888] text-xs uppercase tracking-widest">
                   {link.label}
                 </p>
                 <p className="text-[#c9d1d9] text-sm truncate group-hover:text-[#00ff41] transition-colors">
@@ -102,7 +102,7 @@ export default function Contact() {
         >
           <p>
             Designed & built by{" "}
-            <span className="text-[#555]">Kian Ranjbar</span> — Los Angeles, CA
+            <span className="text-[#888]">Kian Ranjbar</span> — Los Angeles, CA
           </p>
           <p className="mt-1">
             <span className="text-[#00ff41]">●</span> Open to new opportunities

@@ -80,7 +80,7 @@ export default function Skills() {
             <span className="w-3 h-3 rounded-full bg-[#ff5f56]" />
             <span className="w-3 h-3 rounded-full bg-[#ffbd2e]" />
             <span className="w-3 h-3 rounded-full bg-[#27c93f]" />
-            <span className="ml-4 text-[#555] text-xs tracking-wider">
+            <span className="ml-4 text-[#888] text-xs tracking-wider">
               skills.json — kian@portfolio
             </span>
           </div>
@@ -122,7 +122,7 @@ export default function Skills() {
           {/* Bottom prompt */}
           <div className="border-t border-[#1a1a1a] px-6 py-3 text-[#333] text-xs">
             <span className="text-[#00ff41]">●</span>{" "}
-            <span className="text-[#555]">kian@portfolio</span>
+            <span className="text-[#888]">kian@portfolio</span>
             <span className="text-[#333]">:~$</span>{" "}
             <span className="animate-pulse text-[#444]">_</span>
           </div>
@@ -135,7 +135,7 @@ export default function Skills() {
           transition={{ delay: 0.5 }}
           className="mt-8"
         >
-          <p className="text-[#555] text-xs tracking-widest uppercase mb-4">
+          <p className="text-[#888] text-xs tracking-widest uppercase mb-4">
             // core concepts
           </p>
           <div className="flex flex-wrap gap-2">

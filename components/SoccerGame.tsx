@@ -98,7 +98,7 @@ export default function SoccerGame() {
           <h2 className="text-3xl sm:text-4xl font-bold text-[#e6edf3] mb-3">
             Penalty Shootout
           </h2>
-          <p className="text-[#555] text-sm">
+          <p className="text-[#888] text-sm">
             I played soccer my whole life. Now you play against me.{" "}
             <span className="text-[#00cc33]">{MAX_SHOTS} shots. Beat the keeper.</span>
           </p>
@@ -113,7 +113,7 @@ export default function SoccerGame() {
           {/* Score bar */}
           {isPlaying && (
             <div className="flex justify-between items-center mb-5 text-sm">
-              <span className="text-[#555]">
+              <span className="text-[#888]">
                 Shot{" "}
                 <span className="text-[#00ff41]">
                   {Math.min(shots + 1, MAX_SHOTS)}
@@ -243,7 +243,7 @@ export default function SoccerGame() {
           {/* Shoot buttons */}
           {phase === "ready" && (
             <div>
-              <p className="text-center text-[#555] text-xs mb-3 tracking-wider uppercase">
+              <p className="text-center text-[#888] text-xs mb-3 tracking-wider uppercase">
                 Pick your corner
               </p>
               <div className="grid grid-cols-3 gap-3">
@@ -274,7 +274,7 @@ export default function SoccerGame() {
                       ? "Solid shooting! ⚽"
                       : "The keeper won this one 🧤"}
                   </p>
-                  <p className="text-[#555] text-sm">
+                  <p className="text-[#888] text-sm">
                     You scored{" "}
                     <span className="text-[#00ff41] font-bold">{score}</span> out of{" "}
                     {MAX_SHOTS} — {Math.round((score / MAX_SHOTS) * 100)}% conversion rate.
@@ -299,7 +299,7 @@ export default function SoccerGame() {
           )}
 
           {phase === "shooting" && (
-            <div className="text-center text-[#555] text-sm animate-pulse py-2">
+            <div className="text-center text-[#888] text-sm animate-pulse py-2">
               Ball in flight…
             </div>
           )}

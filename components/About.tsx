@@ -81,7 +81,7 @@ export default function About() {
 
             {/* Education card */}
             <div className="card p-5 mt-4 glow-border">
-              <p className="text-[#555] text-xs tracking-widest mb-2 uppercase">
+              <p className="text-[#888] text-xs tracking-widest mb-2 uppercase">
                 $ cat education.txt
               </p>
               <p className="text-[#00ff41] font-semibold">
@@ -90,7 +90,7 @@ export default function About() {
               <p className="text-[#c9d1d9] text-sm">
                 B.S. Computer Science — Information Management & Data Analytics
               </p>
-              <p className="text-[#555] text-sm">Sep 2020 – Dec 2023</p>
+              <p className="text-[#888] text-sm">Sep 2020 – Dec 2023</p>
               <p className="text-[#00cc33] text-sm mt-1">GPA: 3.992</p>
             </div>
           </motion.div>
@@ -132,7 +132,7 @@ export default function About() {
                     <p className="text-[#e6edf3] text-sm font-semibold group-hover:text-[#00ff41] transition-colors">
                       {item.title}
                     </p>
-                    <p className="text-[#555] text-xs leading-relaxed mt-1">
+                    <p className="text-[#888] text-xs leading-relaxed mt-1">
                       {item.desc}
                     </p>
                   </div>
@@ -157,7 +157,7 @@ export default function About() {
               height={200}
               className="w-full h-40 object-cover transition-all duration-300 hover:scale-105"
             />
-            <p className="text-center text-[#555] text-xs py-2">
+            <p className="text-center text-[#888] text-xs py-2">
               ⚽ The beautiful game
             </p>
           </div>
@@ -169,7 +169,7 @@ export default function About() {
               height={200}
               className="w-full h-40 object-cover transition-all duration-300 hover:scale-105"
             />
-            <p className="text-center text-[#555] text-xs py-2">
+            <p className="text-center text-[#888] text-xs py-2">
               🥾 Trail therapy
             </p>
           </div>

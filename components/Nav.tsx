@@ -33,7 +33,7 @@ export default function Nav() {
           href="#hero"
           className="text-[#00ff41] font-bold text-lg tracking-wider hover:glow-green transition-all"
         >
-          <span className="text-[#555]">~/</span>kian
+          <span className="text-[#888]">~/</span>kian
         </a>
 
         {/* Desktop */}

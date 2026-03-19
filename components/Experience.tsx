@@ -172,7 +172,7 @@ export default function Experience() {
                 </div>
                 </div>
                 <div className="flex flex-col items-end gap-1 shrink-0">
-                  <span className="text-[#555] text-xs font-mono">{job.period}</span>
+                  <span className="text-[#888] text-xs font-mono">{job.period}</span>
                   <span className="text-[#333] text-xs">{job.location}</span>
                   <span className="text-[#00ff41] text-sm mt-1">
                     {expanded === job.id ? "−" : "+"}
@@ -192,7 +192,7 @@ export default function Experience() {
                     className="overflow-hidden"
                   >
                     <div className="border-t border-[#1a1a1a] px-6 py-5 space-y-5">
-                      <p className="text-[#555] text-sm italic">{job.tagline}</p>
+                      <p className="text-[#888] text-sm italic">{job.tagline}</p>
 
                       <ul className="space-y-2">
                         {job.highlights.map((h, j) => (

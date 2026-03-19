@@ -45,9 +45,9 @@ export default function Hero() {
         className="max-w-3xl"
       >
         {/* Terminal prompt line */}
-        <p className="text-[#555] text-sm mb-4 tracking-widest">
+        <p className="text-[#888] text-sm mb-4 tracking-widest">
           <span className="text-[#00ff41]">guest@kian</span>
-          <span className="text-[#555]">:~$</span>{" "}
+          <span className="text-[#888]">:~$</span>{" "}
           <span className="text-[#888]">whoami</span>
         </p>
 
@@ -111,7 +111,7 @@ export default function Hero() {
               <span className="text-[#00ff41] text-2xl font-bold glow-green">
                 {s.value}
               </span>
-              <span className="text-[#555] text-xs tracking-wider uppercase">
+              <span className="text-[#888] text-xs tracking-wider uppercase">
                 {s.label}
               </span>
             </div>
