@@ -182,7 +182,7 @@ export default function About() {
           transition={{ delay: 0.65 }}
           className="mt-14 max-w-2xl mx-auto"
         >
-          <p className="text-[#333] text-xs tracking-widest uppercase mb-4 text-center">// something bigger</p>
+          <p className="text-[#555] text-xs tracking-widest uppercase mb-4 text-center">// something bigger</p>
           <div className="card p-5 glow-border">
             <p className="text-[#8b949e] text-sm leading-relaxed mb-5">
               Long before I wrote my first line of code, I co-founded{" "}
