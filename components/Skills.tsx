@@ -52,7 +52,7 @@ export default function Skills() {
   const [active, setActive] = useState<string | null>(null);
 
   return (
-    <section id="skills" ref={ref} className="relative z-10 py-16 px-6">
+    <section id="skills" ref={ref} className="relative z-10 py-10 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

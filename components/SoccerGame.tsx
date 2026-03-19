@@ -84,7 +84,7 @@ export default function SoccerGame() {
   const isPlaying = phase === "ready" || phase === "shooting" || phase === "result";
 
   return (
-    <section id="game" ref={ref} className="relative z-10 py-16 px-6">
+    <section id="game" ref={ref} className="relative z-10 py-10 px-6">
       <div className="max-w-2xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

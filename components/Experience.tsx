@@ -118,7 +118,7 @@ export default function Experience() {
   const [expanded, setExpanded] = useState<string | null>("brandboom");
 
   return (
-    <section id="experience" ref={ref} className="relative z-10 py-16 px-6">
+    <section id="experience" ref={ref} className="relative z-10 py-10 px-6">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

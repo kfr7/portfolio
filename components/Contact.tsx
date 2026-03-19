@@ -29,7 +29,7 @@ export default function Contact() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="contact" ref={ref} className="relative z-10 py-16 px-6">
+    <section id="contact" ref={ref} className="relative z-10 py-10 px-6">
       <div className="max-w-2xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
