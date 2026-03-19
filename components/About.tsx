@@ -18,7 +18,7 @@ const interests = [
   {
     emoji: "🌊",
     title: "Beach Soccer",
-    desc: "Weekend 'gentleman's soccer' at the beach. No refs, no drama — just grown adults sprinting barefoot in sand, taking it way too seriously, and loving every second.",
+    desc: "Juggling and doing tricks at the beach. Just me, a ball, and the sand.",
   },
 ];
 
