@@ -1,16 +1,9 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 
-const interests = [
-  {
-    emoji: "⚽",
-    title: "Soccer",
-    desc: "Played my whole life — pickup games, beach soccer, you name it. It's more a lifestyle than a resume item.",
-  },
-];
 
 export default function About() {
   const ref = useRef<HTMLElement>(null);
@@ -65,9 +58,9 @@ export default function About() {
               product and engineering, between today&apos;s code and tomorrow&apos;s scale.
             </p>
             <p>
-              Off the keyboard, I&apos;m either chasing a soccer ball — I captained
-              every team I played on — hiking a trail, or losing sleep over an
-              interesting side project.
+              Off the keyboard, I&apos;m either on a soccer field (team captain most
+              of my life), on a trail, or losing sleep over an interesting side
+              project.
             </p>
 
             {/* Education card */}
@@ -108,28 +101,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* Interest cards */}
-            <div className="grid gap-4">
-              {interests.map((item, i) => (
-                <motion.div
-                  key={item.title}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={inView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ delay: 0.3 + i * 0.1 }}
-                  className="card p-4 flex gap-4 group cursor-default"
-                >
-                  <span className="text-2xl">{item.emoji}</span>
-                  <div>
-                    <p className="text-[#e6edf3] text-sm font-semibold group-hover:text-[#00ff41] transition-colors">
-                      {item.title}
-                    </p>
-                    <p className="text-[#888] text-xs leading-relaxed mt-1">
-                      {item.desc}
-                    </p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
           </motion.div>
         </div>
 
