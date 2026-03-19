@@ -7,8 +7,8 @@ import Image from "next/image";
 const interests = [
   {
     emoji: "⚽",
-    title: "Soccer Captain",
-    desc: "Played soccer my whole life — from youth leagues through university at UCI where I wore the captain's armband. Leading a team on the pitch taught me more about communication and accountability than any classroom.",
+    title: "Soccer",
+    desc: "Played my whole life — pickup games, beach soccer, you name it. It's more a lifestyle than a resume item.",
   },
   {
     emoji: "🥾",
@@ -75,10 +75,8 @@ export default function About() {
               product and engineering, between today&apos;s code and tomorrow&apos;s scale.
             </p>
             <p>
-              Off the keyboard, I&apos;m either chasing a soccer ball — I&apos;ve been
-              captain of every team I&apos;ve played on — hiking a trail, or losing
-              sleep over an interesting side project. I bring that same
-              competitive, team-first mindset to everything I build.
+              Off the keyboard, I&apos;m either chasing a soccer ball, hiking a
+              trail, or losing sleep over an interesting side project.
             </p>
 
             {/* Education card */}
