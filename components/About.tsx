@@ -101,41 +101,32 @@ export default function About() {
               </div>
             </div>
 
+            {/* Soccer + Hiking photos */}
+            <div className="grid grid-cols-2 gap-3 max-w-xs mx-auto">
+              <div className="rounded-lg overflow-hidden border border-[#1a1a1a] hover:border-[#00ff41]/30 transition-colors">
+                <Image
+                  src="/brazil-juggling.jpeg"
+                  alt="Soccer"
+                  width={300}
+                  height={200}
+                  className="w-full h-32 object-cover transition-all duration-300 hover:scale-105"
+                />
+                <p className="text-center text-[#888] text-xs py-2">⚽ The beautiful game</p>
+              </div>
+              <div className="rounded-lg overflow-hidden border border-[#1a1a1a] hover:border-[#00ff41]/30 transition-colors">
+                <Image
+                  src="/hiking.JPG"
+                  alt="Hiking"
+                  width={300}
+                  height={200}
+                  className="w-full h-32 object-cover transition-all duration-300 hover:scale-105"
+                />
+                <p className="text-center text-[#888] text-xs py-2">🥾 Trail therapy</p>
+              </div>
+            </div>
+
           </motion.div>
         </div>
-
-        {/* Photos strip */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ delay: 0.5 }}
-          className="mt-16 grid grid-cols-2 gap-4 max-w-lg mx-auto"
-        >
-          <div className="rounded-lg overflow-hidden border border-[#1a1a1a] hover:border-[#00ff41]/30 transition-colors">
-            <Image
-              src="/brazil-juggling.jpeg"
-              alt="Soccer"
-              width={300}
-              height={200}
-              className="w-full h-40 object-cover transition-all duration-300 hover:scale-105"
-            />
-            <p className="text-center text-[#888] text-xs py-2">
-              ⚽ The beautiful game
-            </p>
-          </div>
-          <div className="rounded-lg overflow-hidden border border-[#1a1a1a] hover:border-[#00ff41]/30 transition-colors">
-            <Image
-              src="/hiking.JPG"
-              alt="Hiking"
-              width={300}
-              height={200}
-              className="w-full h-40 object-cover transition-all duration-300 hover:scale-105"
-            />
-            <p className="text-center text-[#888] text-xs py-2">
-              🥾 Trail therapy
-            </p>
-          </div>
-        </motion.div>
 
         {/* Anna's Angels */}
         <motion.div
