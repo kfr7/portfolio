@@ -188,7 +188,7 @@ export default function About() {
               Long before I wrote my first line of code, I co-founded{" "}
               <span className="text-[#e6edf3]">Anna&apos;s Angels</span> — a volunteer
               initiative that organizes gift drives and holiday lunches for children
-              at a local orphanage. Started with my mom, still going.
+              at a local orphanage. Started with my mom in 2014, still going.
             </p>
             <div className="grid grid-cols-2 gap-3">
               <div className="rounded-lg overflow-hidden border border-[#1a1a1a]">
