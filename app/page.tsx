@@ -79,7 +79,7 @@ export default async function Home() {
         id="hero"
         className="relative min-h-screen flex flex-col justify-center px-6 z-10"
       >
-        <div className="max-w-7xl mx-auto w-full grid lg:grid-cols-[1fr,400px] gap-16 items-center py-24">
+        <div className="max-w-7xl mx-auto w-full grid lg:grid-cols-[1fr,400px] gap-16 items-center py-12">
           <Hero />
           <NewsWidgetClient news={news} />
         </div>
