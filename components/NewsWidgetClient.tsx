@@ -111,7 +111,7 @@ export default function NewsWidgetClient({ news }: { news: NewsItem[] }) {
           // stay wired
         </p>
         <p className="text-[#888] text-sm mb-4">
-          Blink and you&apos;re behind.
+          News in the tech world.
         </p>
         <NewsList news={news} />
       </div>

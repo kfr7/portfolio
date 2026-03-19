@@ -9,13 +9,13 @@ const jobs = [
     id: "brandboom",
     company: "Brandboom",
     logo: "/brandboom_logo.jpg",
-    role: "Full-Stack Engineer II → III",
+    role: "Full-Stack Engineer III",
     period: "Jan 2024 – Present",
     type: "Full-Time",
     location: "Los Angeles, CA",
     tagline:
       "Brandboom is a B2B wholesale marketplace serving 5,000+ fashion brands and 600,000+ buyers globally. The platform streamlines the entire wholesale sales cycle — from digital line sheets and order management to payments and buyer discovery.",
-    note: "Promoted to Level III after 15 months.",
+    note: null,
     highlights: [
       "Owned full-stack features end-to-end across the wholesale platform, from database schema design to frontend delivery.",
       "Integrated AI and LLM tooling to automate and enhance buyer-brand workflows, measurably improving connection rates and outreach efficiency.",
@@ -23,7 +23,7 @@ const jobs = [
       "Contributed to platform scalability, cost reduction, and data integrity across core systems.",
       "Mentored a junior engineer through feature delivery and collaborated directly with leadership on architectural decisions.",
     ],
-    stack: ["Vue.js", "PHP", "MySQL", "AWS", "Docker", "Cypress", "OpenAI", "Jenkins", "NGINX"],
+    stack: [],
   },
   {
     id: "coursehero-be",
@@ -41,7 +41,7 @@ const jobs = [
       "Developed a RESTful API endpoint for cancelling in-progress document uploads, improving overall user experience.",
       "Authored documentation for the rewards system to improve cross-team knowledge transfer.",
     ],
-    stack: ["AWS Step Functions", "Lambda", "SQS", "SNS", "Python", "REST APIs"],
+    stack: [],
   },
   {
     id: "coursehero-fs",
@@ -58,7 +58,7 @@ const jobs = [
       "Led a team of 2 interns building a student productivity and collaboration platform from the ground up.",
       "Designed and implemented the full RESTful API and database architecture, and documented everything for handoff.",
     ],
-    stack: ["Node.js", "React", "PostgreSQL", "REST APIs"],
+    stack: [],
   },
   {
     id: "uci-tutor",
@@ -75,7 +75,7 @@ const jobs = [
       "Facilitated 2 weekly labs of 10–20 students for a Data Structures Implementation course.",
       "Helped students debug C++ code and build intuition for core CS concepts hands-on.",
     ],
-    stack: ["C++", "Data Structures", "Algorithms"],
+    stack: [],
   },
   {
     id: "ths-club",
@@ -91,7 +91,7 @@ const jobs = [
       "Recruited members, built the curriculum, and ran weekly sessions — helping 30+ students learn Python and core CS fundamentals.",
       "Same leadership principles as the soccer pitch: show up, communicate, earn trust.",
     ],
-    stack: ["Python", "Teaching", "Leadership"],
+    stack: [],
   },
   {
     id: "dominos",
@@ -108,7 +108,7 @@ const jobs = [
       "Redesigned the scheduling format to reduce overhead and keep the store within budget.",
       "Handled conflict resolution and kept a team running smoothly under pressure.",
     ],
-    stack: ["Operations", "Team Management", "Systems Thinking"],
+    stack: [],
   },
 ];
 
@@ -119,7 +119,7 @@ export default function Experience() {
 
   return (
     <section id="experience" ref={ref} className="relative z-10 py-10 px-6">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -203,11 +203,13 @@ export default function Experience() {
                         ))}
                       </ul>
 
-                      <div className="flex flex-wrap gap-1.5 pt-1">
-                        {job.stack.map((s) => (
-                          <span key={s} className="tag">{s}</span>
-                        ))}
-                      </div>
+                      {job.stack.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5 pt-1">
+                          {job.stack.map((s) => (
+                            <span key={s} className="tag">{s}</span>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   </motion.div>
                 )}

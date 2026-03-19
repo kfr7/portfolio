@@ -47,20 +47,20 @@ export default function About() {
             </p>
             <p>
               Right now I&apos;m a <span className="text-[#e6edf3]">Full-Stack Engineer III</span>{" "}
-              at Brandboom, where I&apos;ve shipped everything from AI-powered email
-              automation to parallelized CI test pipelines. I got promoted after
-              15 months and I&apos;m still accelerating.
+              at Brandboom — a B2B wholesale marketplace — where I own features
+              end-to-end, from schema design to frontend delivery. I&apos;ve shipped
+              AI-powered workflows, rebuilt CI pipelines, and mentored junior engineers.
             </p>
             <p>
-              I speak English and Spanish fluently — and I&apos;m equally comfortable
-              talking to a database as I am talking to a non-technical
-              stakeholder. I believe the best engineers are translators: between
-              product and engineering, between today&apos;s code and tomorrow&apos;s scale.
+              I&apos;m equally comfortable talking to a database as I am talking to a
+              non-technical stakeholder. I believe the best engineers are
+              translators: between product and engineering, between today&apos;s code
+              and tomorrow&apos;s scale.
             </p>
             <p>
-              Off the keyboard, I&apos;m either on a soccer field (team captain most
-              of my life), on a trail, or losing sleep over an interesting side
-              project.
+              When I&apos;m not at the computer, I&apos;m probably on a soccer field or
+              out finding a new trail — nature has a way of clearing the head
+              better than anything else.
             </p>
 
             {/* Education card */}
