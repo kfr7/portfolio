@@ -197,7 +197,7 @@ export default function About() {
                   alt="Anna's Angels gift drive"
                   width={300}
                   height={200}
-                  className="w-full h-36 object-cover transition-all duration-300 hover:scale-105"
+                  className="w-full h-52 object-cover transition-all duration-300 hover:scale-105"
                 />
               </div>
               <div className="rounded-lg overflow-hidden border border-[#1a1a1a]">
@@ -206,7 +206,7 @@ export default function About() {
                   alt="Anna's Angels — kids after lunch"
                   width={300}
                   height={200}
-                  className="w-full h-36 object-cover transition-all duration-300 hover:scale-105"
+                  className="w-full h-52 object-cover transition-all duration-300 hover:scale-105"
                 />
               </div>
             </div>
