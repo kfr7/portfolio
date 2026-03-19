@@ -8,7 +8,6 @@ const roles = [
   "AI Integration Specialist",
   "System Architect",
   "Open Source Contributor",
-  "Soccer Captain ⚽",
 ];
 
 export default function Hero() {
@@ -107,7 +106,6 @@ export default function Hero() {
             { value: "3+", label: "Years Professional Exp." },
             { value: "3.99", label: "GPA @ UCI" },
             { value: "II→III", label: "Promoted in 15 mo." },
-            { value: "⚽", label: "Former Team Captain" },
           ].map((s) => (
             <div key={s.label} className="flex flex-col gap-1">
               <span className="text-[#00ff41] text-2xl font-bold glow-green">
