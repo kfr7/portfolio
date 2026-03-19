@@ -104,7 +104,7 @@ export default function Hero() {
         >
           {[
             { value: "3+", label: "Years Professional Exp." },
-            { value: "3.99", label: "GPA @ UCI" },
+            { value: "3.992", label: "GPA @ UCI" },
             { value: "II→III", label: "Promoted in 15 mo." },
           ].map((s) => (
             <div key={s.label} className="flex flex-col gap-1">
