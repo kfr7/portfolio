@@ -10,16 +10,6 @@ const interests = [
     title: "Soccer",
     desc: "Played my whole life — pickup games, beach soccer, you name it. It's more a lifestyle than a resume item.",
   },
-  {
-    emoji: "🥾",
-    title: "Trail Runner",
-    desc: "Give me a trail in the Angeles National Forest and I'm at peace. There's something about the silence of a long hike that resets the brain — great for debugging life's toughest problems.",
-  },
-  {
-    emoji: "🌊",
-    title: "Beach Soccer",
-    desc: "Juggling and doing tricks at the beach. Just me, a ball, and the sand.",
-  },
 ];
 
 export default function About() {
@@ -75,8 +65,9 @@ export default function About() {
               product and engineering, between today&apos;s code and tomorrow&apos;s scale.
             </p>
             <p>
-              Off the keyboard, I&apos;m either chasing a soccer ball, hiking a
-              trail, or losing sleep over an interesting side project.
+              Off the keyboard, I&apos;m either chasing a soccer ball — I captained
+              every team I played on — hiking a trail, or losing sleep over an
+              interesting side project.
             </p>
 
             {/* Education card */}
