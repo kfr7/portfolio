@@ -85,9 +85,9 @@ export default async function Home() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#333] animate-bounce">
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#888] animate-bounce">
           <span className="text-xs tracking-widest uppercase">scroll</span>
-          <span className="text-lg">↓</span>
+          <span className="text-lg text-[#00ff41]">↓</span>
         </div>
       </section>
 

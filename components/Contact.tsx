@@ -114,7 +114,8 @@ export default function Contact() {
         >
           <p>
             Designed & built by{" "}
-            <span className="text-[#888]">Kian Ranjbar</span> — Los Angeles, CA
+            <span className="text-[#888]">Kian Ranjbar</span> — Los Angeles, CA{" "}
+            · © {new Date().getFullYear()}
           </p>
         </motion.div>
       </div>
