@@ -38,29 +38,24 @@ export default function About() {
             <p>
               I&apos;m <span className="text-[#e6edf3] font-semibold">Kian Ranjbar</span> — a
               Full-Stack Engineer based in{" "}
-              <span className="text-[#00cc33]">Los Angeles</span> who loves
-              building things that actually matter. I graduated from{" "}
+              <span className="text-[#00cc33]">Los Angeles</span>. I graduated from{" "}
               <span className="text-[#e6edf3]">UC Irvine</span> with a B.S. in
-              Computer Science (Information Management & Data Analytics), GPA{" "}
-              <span className="text-[#00ff41]">3.992</span> — then immediately
-              jumped into the deep end of a fast-paced startup.
+              Computer Science (Information Management &amp; Data Analytics), GPA{" "}
+              <span className="text-[#00ff41]">3.992</span>, and went straight into the startup world.
             </p>
             <p>
-              Right now I&apos;m a <span className="text-[#e6edf3]">Full-Stack Engineer III</span>{" "}
-              at Brandboom — a B2B wholesale marketplace — where I own features
-              end-to-end, from schema design to frontend delivery. I&apos;ve shipped
-              AI-powered workflows, rebuilt CI pipelines, and mentored junior engineers.
+              Currently I&apos;m a <span className="text-[#e6edf3]">Full-Stack Engineer III</span>{" "}
+              at <span className="text-[#e6edf3]">Brandboom</span>, a B2B wholesale marketplace, where I own features
+              end-to-end — from schema design to frontend delivery. I&apos;ve shipped
+              AI-powered workflows, rebuilt CI pipelines, and mentored junior engineers along the way.
             </p>
             <p>
-              I&apos;m equally comfortable talking to a database as I am talking to a
-              non-technical stakeholder. I believe the best engineers are
-              translators: between product and engineering, between today&apos;s code
-              and tomorrow&apos;s scale.
-            </p>
-            <p>
-              When I&apos;m not at the computer, I&apos;m probably on a soccer field or
-              out finding a new trail — nature has a way of clearing the head
-              better than anything else.
+              I think the next chapter of software engineering looks less like writing every line yourself
+              and more like orchestrating AI agents to do the heavy lifting. The craft is shifting from
+              pure implementation to architecture, judgment, and knowing how to steer these systems toward
+              the right outcome. But none of that replaces actually understanding the systems underneath —
+              you still need to know what&apos;s happening at the infrastructure, data, and code level to
+              build anything reliable on top of it.
             </p>
 
             {/* Education card */}
@@ -111,7 +106,7 @@ export default function About() {
                   height={200}
                   className="w-full h-48 object-cover transition-all duration-300 hover:scale-105"
                 />
-                <p className="text-center text-[#888] text-xs py-2">⚽ The beautiful game</p>
+                <p className="text-center text-[#888] text-xs py-2">The beautiful game</p>
               </div>
               <div className="rounded-lg overflow-hidden border border-[#1a1a1a] hover:border-[#00ff41]/30 transition-colors">
                 <Image
@@ -121,7 +116,7 @@ export default function About() {
                   height={200}
                   className="w-full h-48 object-cover transition-all duration-300 hover:scale-105"
                 />
-                <p className="text-center text-[#888] text-xs py-2">🥾 Trail therapy</p>
+                <p className="text-center text-[#888] text-xs py-2">Hiking</p>
               </div>
             </div>
 

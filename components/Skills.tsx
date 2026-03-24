@@ -5,11 +5,6 @@ import { motion, useInView } from "framer-motion";
 
 const skillGroups = [
   {
-    label: "languages",
-    icon: "λ",
-    items: ["Python", "JavaScript", "TypeScript", "PHP", "Go", "SQL", "Java", "C++", "C"],
-  },
-  {
     label: "frontend",
     icon: "◈",
     items: ["React", "Next.js", "Vue.js", "Angular", "Ionic", "Tailwind CSS", "Bootstrap", "SCSS", "HTML", "jQuery"],
@@ -17,27 +12,32 @@ const skillGroups = [
   {
     label: "backend",
     icon: "⬡",
-    items: ["Node.js", "Express.js", "REST APIs", "PHP"],
+    items: ["Node.js", "Express.js", "REST APIs", "PHP", "Python", "Go", "Java"],
   },
   {
     label: "databases",
     icon: "⊞",
-    items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Supabase"],
+    items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Supabase", "Redis"],
   },
   {
     label: "cloud & devops",
     icon: "☁",
-    items: ["AWS", "GCP", "Docker", "Vercel", "Jenkins", "TeamCity", "CI/CD", "Webpack", "Vite"],
+    items: ["AWS", "GCP", "Docker", "Vercel", "Jenkins", "TeamCity", "CI/CD", "Webpack", "Vite", "Linux"],
   },
   {
     label: "ai & llm",
     icon: "◉",
-    items: ["OpenAI", "Grok", "Claude API", "Codex", "Perplexity", "Apify", "& always exploring"],
+    items: ["OpenAI API", "Claude API", "Codex", "Cursor", "Grok", "Perplexity", "Apify", "LangChain", "n8n", "& always exploring"],
   },
   {
-    label: "tools",
+    label: "testing & quality",
+    icon: "✓",
+    items: ["Jest", "Cypress", "PHPUnit", "Unit Testing", "Integration Testing", "E2E Testing"],
+  },
+  {
+    label: "tools & workflow",
     icon: "⚙",
-    items: ["Git", "GitHub", "GitLab", "Postman", "Sentry", "Datadog", "Rollbar", "Jira", "Figma", "Retool"],
+    items: ["Git", "GitHub", "GitLab", "Postman", "Sentry", "Datadog", "Rollbar", "Jira", "Figma", "Retool", "Linear", "Notion"],
   },
 ];
 
