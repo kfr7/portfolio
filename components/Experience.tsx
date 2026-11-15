@@ -12,7 +12,7 @@ const jobs = [
     role: "Software Engineer II",
     period: "Jul 2026 – Present",
     type: "Full-Time",
-    location: "Los Angeles, CA",
+    location: "Remote",
     tagline:
       "Attentive is an AI-powered SMS and email marketing platform used by thousands of consumer brands to send personalized, real-time messages to their customers.",
     note: null,
