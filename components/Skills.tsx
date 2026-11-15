@@ -12,17 +12,17 @@ const skillGroups = [
   {
     label: "backend",
     icon: "⬡",
-    items: ["Node.js", "Express.js", "REST APIs", "PHP", "Python", "Go", "Java"],
+    items: ["Node.js", "Express.js", "REST APIs", "GraphQL", "gRPC", "Kotlin", "PHP", "Python", "Go", "Java"],
   },
   {
     label: "databases",
     icon: "⊞",
-    items: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Supabase", "Redis"],
+    items: ["MySQL", "PostgreSQL", "ClickHouse", "Snowflake", "MongoDB", "Firebase", "Supabase", "Redis"],
   },
   {
     label: "cloud & devops",
     icon: "☁",
-    items: ["AWS", "GCP", "Docker", "Vercel", "Jenkins", "TeamCity", "CI/CD", "Webpack", "Vite", "Linux"],
+    items: ["AWS", "GCP", "Terraform", "Spacelift", "Argo", "Docker", "Vercel", "CircleCI", "Jenkins", "TeamCity", "Gradle", "CI/CD", "Webpack", "Vite", "Linux"],
   },
   {
     label: "ai & llm",
@@ -37,7 +37,7 @@ const skillGroups = [
   {
     label: "tools & workflow",
     icon: "⚙",
-    items: ["Git", "GitHub", "GitLab", "Postman", "Sentry", "Datadog", "Rollbar", "Jira", "Figma", "Retool", "Linear", "Notion"],
+    items: ["Git", "GitHub", "GitLab", "Postman", "Sentry", "Datadog", "PagerDuty", "incident.io", "Rollbar", "Jira", "Figma", "Retool", "Linear", "Notion"],
   },
 ];
 
