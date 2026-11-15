@@ -6,11 +6,29 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 
 const jobs = [
   {
+    id: "attentive",
+    company: "Attentive",
+    logo: "/attentive_logo.png",
+    role: "Software Engineer II",
+    period: "Jul 2026 – Present",
+    type: "Full-Time",
+    location: "Los Angeles, CA",
+    tagline:
+      "Attentive is an AI-powered SMS and email marketing platform used by thousands of consumer brands to send personalized, real-time messages to their customers.",
+    note: null,
+    highlights: [
+      "Led the design and build of a source-agnostic Kotlin alerting platform that ingests signals from any monitoring tool, tracks monitor health over time, and routes alerts through configurable rules to any destination such as Slack, Jira, and Zendesk — plus a GraphQL API and alerts UI in the admin center.",
+      "Building AI agents that vet monitor quality and triage incoming alerts — the vetting agent scores flapping risk from threshold history and explains its verdicts in plain language — and added alerting tools to Attentive's MCP server.",
+      "Redesigned the ClickHouse schema and materialized views behind the Data Health dashboard, bringing queries that took over 15s for the highest-volume customers under the 5s timeout.",
+    ],
+    stack: [],
+  },
+  {
     id: "brandboom",
     company: "Brandboom",
     logo: "/brandboom_logo.jpg",
-    role: "Full-Stack Engineer III",
-    period: "Jan 2024 – Present",
+    role: "Full-Stack Engineer II",
+    period: "Jan 2024 – Jul 2026",
     type: "Full-Time",
     location: "Los Angeles, CA",
     tagline:
@@ -115,7 +133,7 @@ const jobs = [
 export default function Experience() {
   const ref = useRef<HTMLElement>(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
-  const [expanded, setExpanded] = useState<string | null>("brandboom");
+  const [expanded, setExpanded] = useState<string | null>("attentive");
 
   return (
     <section id="experience" ref={ref} className="relative z-10 py-10 px-6">

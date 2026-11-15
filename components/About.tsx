@@ -44,10 +44,12 @@ export default function About() {
               <span className="text-[#00ff41]">3.992</span>, and went straight into the startup world.
             </p>
             <p>
-              Currently I&apos;m a <span className="text-[#e6edf3]">Full-Stack Engineer III</span>{" "}
-              at <span className="text-[#e6edf3]">Brandboom</span>, a B2B wholesale marketplace, where I own features
-              end-to-end — from schema design to frontend delivery. I&apos;ve shipped
-              AI-powered workflows, rebuilt CI pipelines, and mentored junior engineers along the way.
+              Currently I&apos;m a <span className="text-[#e6edf3]">Software Engineer II</span>{" "}
+              at <span className="text-[#e6edf3]">Attentive</span>, where I lead our alerting
+              platform and work on data observability — from Kotlin services and ClickHouse tuning
+              to AI agents that keep monitoring signal clean. Before that I spent two and a half years at{" "}
+              <span className="text-[#e6edf3]">Brandboom</span> shipping AI-powered workflows,
+              rebuilding CI pipelines, and mentoring junior engineers.
             </p>
             <p>
               I think the next chapter of software engineering looks less like writing every line yourself
@@ -123,7 +125,7 @@ export default function About() {
           </motion.div>
         </div>
 
-        {/* Anna's Angels */}
+        {/* Anna Laura's Angels */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -134,7 +136,14 @@ export default function About() {
           <div className="card p-5 glow-border">
             <p className="text-[#8b949e] text-sm leading-relaxed mb-5">
               Long before I wrote my first line of code, I co-founded{" "}
-              <span className="text-[#e6edf3]">Anna&apos;s Angels</span> — a volunteer
+              <a
+                href="https://annasangels.charity/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#e6edf3] underline decoration-[#00ff41]/50 underline-offset-4 hover:text-[#00ff41] transition-colors"
+              >
+                Anna Laura&apos;s Angels
+              </a> — a volunteer
               initiative that organizes gift drives and holiday lunches for children
               across orphanages in Tijuana, Mexico. Started with my mom in 2014, still going.
             </p>
@@ -142,7 +151,7 @@ export default function About() {
               <div className="rounded-lg overflow-hidden border border-[#1a1a1a]">
                 <Image
                   src="/orphanage1.jpg"
-                  alt="Anna's Angels gift drive"
+                  alt="Anna Laura's Angels gift drive"
                   width={300}
                   height={200}
                   className="w-full h-52 object-cover transition-all duration-300 hover:scale-105"
@@ -151,7 +160,7 @@ export default function About() {
               <div className="rounded-lg overflow-hidden border border-[#1a1a1a]">
                 <Image
                   src="/orphanage2.jpg"
-                  alt="Anna's Angels — kids after lunch"
+                  alt="Anna Laura's Angels — kids after lunch"
                   width={300}
                   height={200}
                   className="w-full h-52 object-cover transition-all duration-300 hover:scale-105"
