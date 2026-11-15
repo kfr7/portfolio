@@ -37,7 +37,7 @@ const skillGroups = [
   {
     label: "tools & workflow",
     icon: "⚙",
-    items: ["Git", "GitHub", "GitLab", "Postman", "Sentry", "Datadog", "PagerDuty", "incident.io", "Rollbar", "Jira", "Figma", "Retool", "Linear", "Notion"],
+    items: ["Git", "GitHub", "GitLab", "Postman", "Sentry", "Datadog", "PagerDuty", "incident.io", "Rollbar", "Jira", "Figma", "Retool", "Linear", "Notion", "IntelliJ IDEA Ultimate"],
   },
 ];
 
