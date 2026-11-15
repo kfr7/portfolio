@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const roles = [
-  "Full-Stack Engineer",
+  "Software Engineer",
   "AI Integration Specialist",
   "System Architect",
   "Open Source Contributor",

@@ -37,7 +37,7 @@ export default function About() {
           >
             <p>
               I&apos;m <span className="text-[#e6edf3] font-semibold">Kian Ranjbar</span> — a
-              Full-Stack Engineer based in{" "}
+              Software Engineer based in{" "}
               <span className="text-[#00cc33]">Los Angeles</span>. I graduated from{" "}
               <span className="text-[#e6edf3]">UC Irvine</span> with a B.S. in
               Computer Science (Information Management &amp; Data Analytics), GPA{" "}
@@ -45,14 +45,11 @@ export default function About() {
             </p>
             <p>
               Right now I&apos;m a <span className="text-[#e6edf3]">Software Engineer II</span>{" "}
-              at <span className="text-[#e6edf3]">Attentive</span>. I designed and lead a
-              source-agnostic alerting platform in Kotlin that ingests monitor signals, tracks health
-              over time, and routes alerts through configurable rules, with AI agents that vet monitors
-              and triage alerts. I also work on ClickHouse-backed data observability. Before that I spent
-              two and a half years at <span className="text-[#e6edf3]">Brandboom</span>, a B2B
-              wholesale marketplace, owning features from schema to UI: LLM enrichment pipelines that
-              grew buyer-brand connections 30%, an AI email automation system, and a parallelized
-              Cypress pipeline that cleared our QA bottleneck.
+              at <span className="text-[#e6edf3]">Attentive</span>, where I build distributed services
+              and data infrastructure, mostly alerting and observability systems and the AI agents
+              that run on top of them. Before that I spent two and a half years at{" "}
+              <span className="text-[#e6edf3]">Brandboom</span>, a B2B wholesale marketplace, owning
+              features from database schema to UI and building LLM-powered workflows into the product.
             </p>
             <p>
               I think the next chapter of software engineering looks less like writing every line yourself

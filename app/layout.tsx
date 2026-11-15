@@ -2,21 +2,21 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Kian Ranjbar | Full-Stack Engineer",
+  title: "Kian Ranjbar | Software Engineer",
   description:
-    "Full-Stack Engineer based in Los Angeles. Specializing in scalable web applications, AI integrations, and developer tooling.",
+    "Software Engineer based in Los Angeles building distributed services, data infrastructure, and AI-powered products across the stack.",
   keywords: [
     "Kian Ranjbar",
-    "Full-Stack Engineer",
     "Software Engineer",
+    "Full-Stack Engineer",
     "React",
     "Next.js",
     "Los Angeles",
   ],
   authors: [{ name: "Kian Ranjbar" }],
   openGraph: {
-    title: "Kian Ranjbar | Full-Stack Engineer",
-    description: "Full-Stack Engineer based in Los Angeles.",
+    title: "Kian Ranjbar | Software Engineer",
+    description: "Software Engineer based in Los Angeles.",
     type: "website",
   },
 };
