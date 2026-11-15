@@ -37,19 +37,18 @@ export default function About() {
           >
             <p>
               I&apos;m <span className="text-[#e6edf3] font-semibold">Kian Ranjbar</span> — a
-              Full-Stack Engineer based in{" "}
+              Software Engineer based in{" "}
               <span className="text-[#00cc33]">Los Angeles</span>. I graduated from{" "}
               <span className="text-[#e6edf3]">UC Irvine</span> with a B.S. in
               Computer Science (Information Management &amp; Data Analytics), GPA{" "}
               <span className="text-[#00ff41]">3.992</span>, and went straight into the startup world.
             </p>
             <p>
-              Currently I&apos;m a <span className="text-[#e6edf3]">Software Engineer II</span>{" "}
-              at <span className="text-[#e6edf3]">Attentive</span>, where I lead our alerting
-              platform and work on data observability — from Kotlin services and ClickHouse tuning
-              to AI agents that keep monitoring signal clean. Before that I spent two and a half years at{" "}
-              <span className="text-[#e6edf3]">Brandboom</span> shipping AI-powered workflows,
-              rebuilding CI pipelines, and mentoring junior engineers.
+              Right now I&apos;m a <span className="text-[#e6edf3]">Software Engineer II</span>{" "}
+              at <span className="text-[#e6edf3]">Attentive</span>, working on the backend. I built
+              and lead our alerting platform, and I work on data observability. Before that I spent
+              two and a half years at <span className="text-[#e6edf3]">Brandboom</span>, a B2B
+              wholesale marketplace, building features across the stack and bringing AI into the product.
             </p>
             <p>
               I think the next chapter of software engineering looks less like writing every line yourself

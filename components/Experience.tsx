@@ -17,8 +17,8 @@ const jobs = [
       "Attentive is an AI-powered SMS and email marketing platform used by thousands of consumer brands to send personalized, real-time messages to their customers.",
     note: null,
     highlights: [
-      "Led the design and build of a source-agnostic Kotlin alerting platform that ingests signals from any monitoring tool, tracks monitor health over time, and routes alerts through configurable rules to any destination such as Slack, Jira, and Zendesk — plus a GraphQL API and alerts UI in the admin center.",
-      "Building AI agents that vet monitor quality and triage incoming alerts — the vetting agent scores flapping risk from threshold history and explains its verdicts in plain language — and added alerting tools to Attentive's MCP server.",
+      "Led the design and build of a source-agnostic Kotlin alerting platform that ingests signals from any monitoring tool, tracks monitor health over time, and routes alerts through configurable rules to any destination such as Slack, Jira, and Zendesk. Also built the GraphQL API and the alerts UI in the admin center.",
+      "Building AI agents that vet monitor quality and triage incoming alerts, and added alerting tools to Attentive's MCP server.",
       "Redesigned the ClickHouse schema and materialized views behind the Data Health dashboard, bringing queries that took over 15s for the highest-volume customers under the 5s timeout.",
     ],
     stack: [],
